@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the Arabic language: its history, alphabet, dialects, grammar, and influence on world culture." />
+  <title>Arabic — The Language of a Thousand Voices</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="brand">
+        <span class="brand-ar" dir="rtl" lang="ar">العربية</span>
+        <span class="brand-en" id="brandEn">The Arabic Language</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#history">History</a></li>
+        <li><a href="#alphabet">Alphabet</a></li>
+        <li><a href="#grammar">Grammar</a></li>
+        <li><a href="#dialects">Dialects</a></li>
+        <li><a href="#influence">Influence</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li>
+          <select id="langSelect" class="lang-select" aria-label="Choose language">
+            <option value="en" lang="en">English</option>
+            <option value="ar" lang="ar">العربية</option>
+            <option value="fr" lang="fr">Français</option>
+            <option value="es" lang="es">Español</option>
+            <option value="it" lang="it">Italiano</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <p class="hero-kicker" lang="ar" dir="rtl">لغة الضاد — لغة القرآن الكريم</p>
+        <h1 class="hero-title">
+          One Language, <span class="accent">A Thousand</span> Voices
+        </h1>
+        <p class="hero-sub">
+          Spoken by over 400 million people and cherished by two billion, Arabic is one of the
+          world's great languages — the language of poetry, science, and the Quran.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#alphabet">Explore the Alphabet</a>
+          <a class="btn btn-ghost" href="#history">Read Its History</a>
+        </div>
+        <p class="hero-arabic" dir="rtl" lang="ar">أنا الذي نظر الأعمى إلى أدبي<br />وأسمعت كلماتي من به صمم</p>
+      </div>
+      <div class="hero-pattern" aria-hidden="true"></div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" aria-label="Key facts">
+      <div class="container stats-grid">
+        <div class="stat">
+          <strong class="stat-num">400+</strong>
+          <span class="stat-label">Million native speakers</span>
+        </div>
+        <div class="stat">
+          <strong class="stat-num">25+</strong>
+          <span class="stat-label">Countries with Arabic as an official language</span>
+        </div>
+        <div class="stat">
+          <strong class="stat-num">6th</strong>
+          <span class="stat-label">Most spoken language in the world</span>
+        </div>
+        <div class="stat">
+          <strong class="stat-num">2B</strong>
+          <span class="stat-label">People connect with Arabic through Islam</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- History -->
+    <section id="history" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">التاريخ</span>
+          <h2 class="section-title">A History of Beauty &amp; Resilience</h2>
+        </div>
+        <div class="timeline">
+          <article class="tl-item">
+            <span class="tl-year">~ 5th c. CE</span>
+            <h3>The Classical Roots</h3>
+            <p>
+              Arabic emerges in the Arabian Peninsula, carried on the tongues of poets
+              who gathered at the famous <em>suq</em> of Ukaz for verse competitions.
+            </p>
+          </article>
+          <article class="tl-item">
+            <span class="tl-year">610 CE</span>
+            <h3>The Revelation</h3>
+            <p>
+              The Quran is revealed in Arabic. Its language becomes sacred and unites
+              a vast region under a shared literary tongue.
+            </p>
+          </article>
+          <article class="tl-item">
+            <span class="tl-year">8th–13th c.</span>
+            <h3>The Golden Age</h3>
+            <p>
+              Arabic becomes the lingua franca of science and philosophy. Scholars in
+              Baghdad, Cordoba, and Cairo write in it — from algebra to astronomy.
+            </p>
+          </article>
+          <article class="tl-item">
+            <span class="tl-year">Modern Era</span>
+            <h3>Modern Standard Arabic</h3>
+            <p>
+              A standardized form, descended from Classical Arabic, serves as the common
+              written language of news, literature, and education across the Arab world.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alphabet -->
+    <section id="alphabet" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">الأبجدية</span>
+          <h2 class="section-title">The 28 Letters</h2>
+          <p class="section-intro">
+            Written from right to left, the Arabic script is cursive — letters change
+            shape depending on where they appear in a word. Tap a letter to see its forms.
+          </p>
+        </div>
+        <div class="letters-grid" id="lettersGrid">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Grammar -->
+    <section id="grammar" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">النحو والصرف</span>
+          <h2 class="section-title">Grammar from a Root</h2>
+        </div>
+        <div class="grammar-grid">
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">🌱</span>
+            <h3>Root System</h3>
+            <p>
+              Most words grow from three-letter roots. From <em lang="ar" dir="rtl">كتب</em>
+              (k-t-b, "to write") spring <em lang="ar" dir="rtl">كتاب</em> (book),
+              <em lang="ar" dir="rtl">مكتبة</em> (library), and <em lang="ar" dir="rtl">كاتب</em> (writer).
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">🪞</span>
+            <h3>Root &amp; Pattern</h3>
+            <p>
+              Vowel patterns shape meaning: the pattern
+              <em lang="ar" dir="rtl">فاعِل</em> signals the doer, while
+              <em lang="ar" dir="rtl">مفعول</em> signals the receiver — a deeply
+              logical, musical system.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">🔤</span>
+            <h3>Short Vowels</h3>
+            <p>
+              Short vowels are usually unwritten and inferred from context. The
+              <em lang="ar" dir="rtl">حركات</em> (diacritics) are added in the Quran,
+              poetry, and children's books for clarity.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-icon" aria-hidden="true">✒️</span>
+            <h3>Calligraphy</h3>
+            <p>
+              Because the script is cursive and flowing, it became an art form —
+              from Kufic's angular forms to the sweeping curves of Naskh and Diwani.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dialects -->
+    <section id="dialects" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">اللهجات</span>
+          <h2 class="section-title">One Language, Many Voices</h2>
+          <p class="section-intro">
+            Modern Standard Arabic is the shared written language; dialects are the
+            living languages spoken at home — a beautiful spectrum across the region.
+          </p>
+        </div>
+        <div class="dialect-grid">
+          <div class="dialect-card">
+            <h3>Levantine</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">كيفك؟ شو أخبارك؟</p>
+            <span>Lebanon · Syria · Jordan · Palestine</span>
+          </div>
+          <div class="dialect-card">
+            <h3>Egyptian</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">إزيك؟ عامل إيه؟</p>
+            <span>Egypt — the most widely understood dialect</span>
+          </div>
+          <div class="dialect-card">
+            <h3>Gulf</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">شلونك؟ وين رايح؟</p>
+            <span>Saudi Arabia · UAE · Kuwait · Qatar · Bahrain · Oman</span>
+          </div>
+          <div class="dialect-card">
+            <h3>Maghrebi</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">كيداير؟ أش دير؟</p>
+            <span>Morocco · Algeria · Tunisia · Libya</span>
+          </div>
+          <div class="dialect-card">
+            <h3>Iraqi</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">شلونك؟ واکو خير؟</p>
+            <span>Iraq</span>
+          </div>
+          <div class="dialect-card">
+            <h3>Sudanese</h3>
+            <p lang="ar" dir="rtl" class="dialect-sample">شنو أخبارك؟</p>
+            <span>Sudan · South Sudan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Influence -->
+    <section id="influence" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">التأثير</span>
+          <h2 class="section-title">Words That Traveled the World</h2>
+          <p class="section-intro">
+            Arabic loanwords live on in science, math, food, and daily life across Europe and beyond.
+          </p>
+        </div>
+        <div class="words-grid">
+          <div class="word"><span lang="ar" dir="rtl">الجبر</span><strong data-i18n-w="w1">Algebra</strong><small data-i18n-w="w1">al-jabr — "restoration"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">صفر</span><strong data-i18n-w="w2">Zero</strong><small data-i18n-w="w2">ṣifr — "nothing"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">كحول</span><strong data-i18n-w="w3">Alcohol</strong><small data-i18n-w="w3">al-kuḥl — kohl</small></div>
+          <div class="word"><span lang="ar" dir="rtl">قُطن</span><strong data-i18n-w="w4">Cotton</strong><small data-i18n-w="w4">quṭn</small></div>
+          <div class="word"><span lang="ar" dir="rtl">سُكّر</span><strong data-i18n-w="w5">Sugar</strong><small data-i18n-w="w5">sukkar</small></div>
+          <div class="word"><span lang="ar" dir="rtl">بحر</span><strong data-i18n-w="w6">Admiral</strong><small data-i18n-w="w6">amīr al-baḥr — "commander of the sea"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">قَلعَة</span><strong data-i18n-w="w7">Casbah</strong><small data-i18n-w="w7">qaṣba — "fortress"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">لُوت</span><strong data-i18n-w="w8">Lute</strong><small data-i18n-w="w8">al-ʿūd</small></div>
+          <div class="word"><span lang="ar" dir="rtl">مَغازِل</span><strong data-i18n-w="w9">Magazine</strong><small data-i18n-w="w9">makhāzin — "storehouses"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">تَعريفة</span><strong data-i18n-w="w10">Tariff</strong><small data-i18n-w="w10">taʿrīfa — "fee"</small></div>
+          <div class="word"><span lang="ar" dir="rtl">لِيمون</span><strong data-i18n-w="w11">Lemon</strong><small data-i18n-w="w11">laymūn</small></div>
+          <div class="word"><span lang="ar" dir="rtl">شيك</span><strong data-i18n-w="w12">Check</strong><small data-i18n-w="w12">ṣakk — "document"</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" lang="ar" dir="rtl">المصادر</span>
+          <h2 class="section-title">Start Learning</h2>
+        </div>
+        <div class="resources-grid">
+          <a class="resource" href="https://www.arabicpod101.com" target="_blank" rel="noopener">
+            <span class="resource-num">01</span>
+            <h3>ArabicPod101</h3>
+            <p>Audio and video lessons for every level, from beginner to advanced.</p>
+          </a>
+          <a class="resource" href="https://www.aljazeera.net/learn" target="_blank" rel="noopener">
+            <span class="resource-num">02</span>
+            <h3>Al Jazeera Learning</h3>
+            <p>Free online course teaching Modern Standard Arabic step by step.</p>
+          </a>
+          <a class="resource" href="https://www.wordreference.com/enar/" target="_blank" rel="noopener">
+            <span class="resource-num">03</span>
+            <h3>WordReference Dictionary</h3>
+            <p>A dependable Arabic–English dictionary with a thriving forum.</p>
+          </a>
+          <a class="resource" href="https://www.alifbee.com" target="_blank" rel="noopener">
+            <span class="resource-num">04</span>
+            <h3>AlifBee</h3>
+            <p>Interactive, story-based app for building everyday vocabulary.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-arabic" dir="rtl" lang="ar">من أحبّ العربية أحبّها الله</p>
+      <p>Made with love for the language of <span class="accent">الضاد</span>.</p>
+      <small>© 2026 · The Arabic Language Project</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

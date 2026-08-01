@@ -31,6 +31,14 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 
 ---
 
+## Sub Pages
+
+| Page | Description |
+|------|-------------|
+| [Arabic Language](arabic-language/) | A celebration of the Arabic language — history, alphabet, grammar, dialects, and global influence. |
+
+---
+
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
