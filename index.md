@@ -9,6 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/motazsaad)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@motazsaad)
 [![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://mksaad.wordpress.com/)
+[![Arabic Language](https://img.shields.io/badge/Arabic_Language-0e75b6?style=for-the-badge)](https://motazsaad.github.io/arabic-language/)
 
 ---
 
@@ -31,10 +32,10 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 
 ---
 
-## Sub Pages
+## Projects
 
-| Page | Description |
-|------|-------------|
+| Project | Description |
+|---------|-------------|
 | [Arabic Language](https://motazsaad.github.io/arabic-language/) | A celebration of the Arabic language — history, alphabet, grammar, dialects, and global influence. |
 
 ---
