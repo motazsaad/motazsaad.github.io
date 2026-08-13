@@ -37,6 +37,7 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 | Project | Description |
 |---------|-------------|
 | [Arabic Language](https://motazsaad.github.io/arabic-language/) | A celebration of the Arabic language — history, alphabet, grammar, dialects, and global influence. |
+| [Text Tools](https://motazsaad.github.io/text-tools/) | Online text processing utilities. |
 
 ---
 
