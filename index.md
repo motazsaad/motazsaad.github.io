@@ -38,18 +38,7 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 |---------|-------------|
 | [Arabic Language](https://motazsaad.github.io/arabic-language/) | A celebration of the Arabic language — history, alphabet, grammar, dialects, and global influence. |
 | [Text Tools](https://motazsaad.github.io/text-tools/) | Online text processing utilities. |
-
----
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| [Timeline](https://motazsaad.github.io/timeline/) | Interactive timeline. |
 
 ---
 
