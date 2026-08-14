@@ -39,6 +39,12 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 | [Arabic Language](https://motazsaad.github.io/arabic-language/) | A celebration of the Arabic language — history, alphabet, grammar, dialects, and global influence. |
 | [Text Tools](https://motazsaad.github.io/text-tools/) | Online text processing utilities. |
 | [Timeline](https://motazsaad.github.io/timeline/) | Interactive timeline. |
+| [Arabic Diacritizer](https://motazsaad.github.io/arabic-diacritizer/) | Add tashkeel (diacritics) to Arabic text in the browser. |
+| [Arabic Root Explorer](https://motazsaad.github.io/arabic-root-explorer/) | Explore Arabic word derivations from triliteral roots. |
+| [Regex Builder & Tester](https://motazsaad.github.io/regex-builder-tester/) | Live regex playground with Arabic-aware examples. |
+| [NLP Cheatsheet](https://motazsaad.github.io/nlp-cheatsheet/) | Interactive NLP reference — tokenization, POS, embeddings, and more. |
+| [LLM Prompt Library](https://motazsaad.github.io/llm-prompt-library/) | Curated copy-paste prompts across categories. |
+| [Arabic Proverb Generator](https://motazsaad.github.io/arabic-proverb-generator/) | Random Arabic proverbs with explanations. |
 
 ---
 
