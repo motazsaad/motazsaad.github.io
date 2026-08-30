@@ -45,6 +45,7 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 | [NLP Cheatsheet](https://motazsaad.github.io/nlp-cheatsheet/) | Interactive NLP reference — tokenization, POS, embeddings, and more. |
 | [LLM Prompt Library](https://motazsaad.github.io/llm-prompt-library/) | Curated copy-paste prompts across categories. |
 | [Arabic Proverb Generator](https://motazsaad.github.io/arabic-proverb-generator/) | Random Arabic proverbs with explanations. |
+| [Arabic Stories](https://motazsaad.github.io/arabic-stories/) | Trilingual short stories — العربية، English, Italiano. |
 
 ---
 
