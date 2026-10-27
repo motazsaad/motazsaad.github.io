@@ -46,6 +46,7 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 | [LLM Prompt Library](https://motazsaad.github.io/llm-prompt-library/) | Curated copy-paste prompts across categories. |
 | [Arabic Proverb Generator](https://motazsaad.github.io/arabic-proverb-generator/) | Random Arabic proverbs with explanations. |
 | [Arabic Stories](https://motazsaad.github.io/arabic-stories/) | Trilingual short stories — العربية، English, Italiano. |
+| [Between the Lines](https://motazsaad.github.io/language-patterns/) | Explore how English, French, Italian, and Arabic express the same ideas in different ways. |
 
 ---
 
