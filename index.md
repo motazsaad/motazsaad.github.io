@@ -28,6 +28,10 @@ Motaz Saad is a Researcher and university professor in Artificial Intelligence. 
 | **Scopus** | [56494148300](https://www.scopus.com/authid/detail.uri?authorId=56494148300) |
 | **ResearchGate** | [Motaz Saad](https://www.researchgate.net/profile/Motaz_Saad) |
 | **OpenReview** | [~Motaz_K_H_SAAD1](https://openreview.net/profile?id=%7EMotaz_K_H_SAAD1) |
+| **DBLP** | [Motaz Saad](https://dblp.org/pid/95/10675.html) |
+| **Semantic Scholar** | [Motaz Saad](https://www.semanticscholar.org/author/Motaz-Saad/2056100597) |
+| **LinkedIn** | [motazsaad](https://www.linkedin.com/in/motazsaad/) |
+| **Wikipedia** | [User:Mksaad](https://en.wikipedia.org/wiki/User:Mksaad) |
 | **Loop** | [2854287](https://loop.frontiersin.org/people/2854287/) |
 | **ResearcherID** | [P-6071-2018](http://www.researcherid.com/rid/P-6071-2018) |
 
